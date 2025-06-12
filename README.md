@@ -1,6 +1,73 @@
-# Getting Started with Create React App
+# CloudPro Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CloudPro is a modern React weather dashboard that displays current weather information with a glassmorphism UI. It uses the [OpenWeatherMap API](https://openweathermap.org/api) and features a responsive sidebar, header, and weather card.
+
+## Features
+
+- Modern glassmorphism UI with Bootstrap and custom CSS
+- Sidebar with toggle and navigation
+- Responsive layout
+- Current weather data fetched from OpenWeatherMap API
+- Weather card with icon, image, and key weather details
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher recommended)
+- npm
+
+### Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone <your-repo-url>
+   cd weather-app
+   ```
+
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+
+3. **Set up your API key:**
+   - Register at [OpenWeatherMap](https://openweathermap.org/api) and get your API key.
+   - Create a `.env` file in the project root:
+     ```
+     REACT_APP_WEATHER_API_KEY=your_openweathermap_api_key_here
+     ```
+
+4. **Start the development server:**
+   ```sh
+   npm start
+   ```
+   Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## Project Structure
+
+```
+weather-app
+├── public
+│   ├── index.html
+│   └── favicon.ico
+├── src
+│   ├── components
+│   │   ├── Header.js
+│   │   ├── Sidebar.js
+│   │   └── WeatherCard.js
+│   ├── App.js
+│   ├── index.js
+│   └── styles.css
+├── .env
+├── package.json
+└── README.md
+```
+
+- **public/**: Contains the `index.html` and favicon.
+- **src/**: Contains the React components and styles.
+- **.env**: Environment variables (e.g., API key).
+- **package.json**: Project metadata and dependencies.
+- **README.md**: This file.
 
 ## Available Scripts
 
