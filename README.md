@@ -52,13 +52,6 @@ CloudPro is a responsive weather application that demonstrates seamless API inte
 
 ---
 
-## 🎬 Demo
-
-<!-- Add screenshots or GIF of your app here -->
-> *Coming soon: Add screenshots or a GIF demonstrating the app in action*
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
